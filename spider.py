@@ -67,7 +67,7 @@ if __name__ == '__main__':
     start = datetime.now()
     base_url = 'https://www.cilixiong.com/movie/'
     movies = []
-    for i in range(1, 6):
+    for i in range(1, 11):
         cur_url = base_url + f'{i}.html'
         movie = fetch_one(cur_url)
         movies.append(movie)
